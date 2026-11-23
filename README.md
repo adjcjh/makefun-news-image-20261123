@@ -1,5 +1,9 @@
 # 23 November 2026 — World News in One Image
 
+[![make.fun · news-image-20261123](https://make.fun/badge/news-image-20261123.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![rank](https://make.fun/badge/news-image-20261123/adjcjh/makefun-news-image-20261123/rank.svg)](https://make.fun/bounty/news-image-20261123/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+[![reward](https://make.fun/badge/news-image-20261123/adjcjh/makefun-news-image-20261123/reward.svg)](https://make.fun/bounty/news-image-20261123?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261123)
+
 Entry for the make.fun bounty
 ["Sum up 23 November's world news in one image"](https://make.fun/bounty/news-image-20261123)
 ($100 USDC, 50 places paid; deadline Wed 2026-11-25 08:00 CST).
