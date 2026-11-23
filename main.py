@@ -15,8 +15,14 @@ DST = os.path.join(DST_DIR, "entry.png")
 
 
 def main():
+    if not os.path.isfile(SRC):
+        raise SystemExit(f"missing source image: {SRC}")
     os.makedirs(DST_DIR, exist_ok=True)
-    shutil.copyfile(SRC, DST)
+    # Copy via a temp file in the destination dir, then atomically rename,
+    # so a failed run can never leave a partial /output/entry.png behind.
+    tmp = os.path.join(DST_DIR, ".entry.png.tmp")
+    shutil.copyfile(SRC, tmp)
+    os.replace(tmp, DST)
     return 0
 
 
